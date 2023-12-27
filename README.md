@@ -10,5 +10,7 @@
 <h4 align="center">A Self-Study Project About Flight Booking Application created by <a href="https://github.com/Yasith8" target="_blank">Yasith Nawodya</a>.</h4>
 <h3 align="center>Used Programming Languages, Libraries and framworks</h3>
 <p align="center>
-  <span>https://img.shields.io/badge/logo-javascript-yellow?logo=javascript</span>
+  <span>
+    <img src="https://img.shields.io/badge/logo-javascript-yellow?logo=javascript">
+    </span>
 </p>
