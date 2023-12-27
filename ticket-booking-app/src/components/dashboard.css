@@ -1,0 +1,29 @@
+.dash-main {
+    width: 100.8vw;
+    height: 100vh;
+}
+
+.side-ul li {
+    height: 44px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 1px;
+}
+
+.nav-item:hover {
+    color: white;
+    background-color: #190f32;
+}
+
+.nav-item:active {
+    color: white;
+    background-color: #190f32;
+}

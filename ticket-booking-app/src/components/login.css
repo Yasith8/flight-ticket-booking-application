@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.log-main {
+    width: 100.8vw;
+    height: 100vh;
+    background-color: #190f32;
+}
+
+.log-cont {
+    border-radius: 10px;
+    width: 35rem;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 40px 100px #00000022;
+}
