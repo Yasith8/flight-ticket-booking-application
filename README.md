@@ -21,10 +21,21 @@
 </p>
 <hr/>
 <p align="center">
-  <a href="#key-features">Key Features</a> •
+  <a href="#features">Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#usecase">UseCase</a> •
+  <a href="#note">Special Notes</a> •
+  <a href="#snap">Snapshots</a> 
 </p>
+
+
+## Key Features
+
+* Ticket Booking
+* Ticket Checking
+* Ticket Canceling
+* Ticket Editing
+* Shadule Checking
+
+
+##UseCase
