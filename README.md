@@ -99,16 +99,10 @@ Employee reviews the available flight options and selects a suitable one based o
 <h3>d. Passenger Details:<h3>
 
 <ul>
-<li>
-Input passenger details, including names, ages, and any special requirements.
-  
-</li>
-<li>
-Verify the accuracy of the entered information.
-  
-</li>
-  
+<li>Input passenger details, including names, ages, and any special requirements.</li>
+<li>Verify the accuracy of the entered information.</li>
 </ul>
+
 <h3>e. Confirm and Book:</h3>
 
 <ul>
@@ -121,7 +115,7 @@ Review the summary of the booking, including flight details, passenger informati
 Confirm the booking, initiating the secure payment process.
 </li>
 </ul>
-f. Payment Processing:</h3>
+<h3>f. Payment Processing:</h3>
 
 <ul>
 <li>
