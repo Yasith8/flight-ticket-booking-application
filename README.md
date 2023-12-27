@@ -11,11 +11,11 @@
 <h3 align="center>Used Programming Languages, Libraries and framworks</h3>
 <p align="center>
   <span>
-    <img src="https://img.shields.io/badge/Javascript-orange?logo=javascript">
+    <img src="https://img.shields.io/badge/Javascript-white?logo=javascript">
     </span>
   <span>
     <span>
-    <img src="https://img.shields.io/badge/HTML-white?logo=html">
+    <img src="https://img.shields.io/badge/HTML-white?logo=html5">
     </span>
   <span>
     <img src="https://img.shields.io/badge/Bootstrap-pink?logo=bootstrap">
