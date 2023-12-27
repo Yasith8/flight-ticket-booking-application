@@ -38,4 +38,61 @@
 * Shadule Checking
 
 
-##UseCase
+## UseCase
+
+<h1> Flight Booking by Agency Employee</h1>
+
+<h2>Objective:</h2>h2>
+<p>To facilitate the process of booking a flight for a customer, ensuring a seamless and efficient experience for both the agency employee and the traveler.</p>
+
+<h3>Scenario: Booking a Flight for a Customer<h3>
+
+<h2>Preconditions:</h2>
+
+<ul>
+  <li></li>
+  <li>
+Employee is logged into the Flight Booking Management System.
+  </li>
+  <li>
+Customer has provided relevant travel details and preferences.
+  </li>
+</ul>
+
+<h2>Main Flow:</h2>
+
+a. Initiate Booking:
+
+  -Employee accesses the booking module from the dashboard.
+  =Inputs customer details, including name, contact information, and any other information.
+  
+b. Flight Search:
+
+Employee enters the customer's travel details, such as origin, destination, preferred dates, and any specific airline preferences.
+The system retrieves real-time flight availability and pricing information.
+c. Select Flight:
+
+Employee reviews the available flight options and selects a suitable one based on customer preferences, budget considerations, and agency-specific deals.
+d. Passenger Details:
+
+Input passenger details, including names, ages, and any special requirements.
+Verify the accuracy of the entered information.
+e. Confirm and Book:
+
+Review the summary of the booking, including flight details, passenger information, and total cost.
+Confirm the booking, initiating the secure payment process.
+f. Payment Processing:
+
+Complete the payment using the integrated payment gateway, ensuring a secure transaction.
+Receive confirmation of the successful booking.
+
+<h2>Alternate Flow: Ticket Modification:</h2>
+If the customer requests changes to the booking, the employee can access the ticket editing module.
+Modify details such as travel dates, passenger information, or seat preferences.
+Ensure real-time validation and adherence to agency policies.
+
+<h2>Postconditions:</h2>
+
+Customer receives confirmation of the booked flight.
+Employee's records are updated with the new booking details.
+Internal systems reflect the latest information for future reference.
