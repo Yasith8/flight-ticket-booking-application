@@ -9,13 +9,13 @@
 
 <h4 align="center">A Self-Study Project About Flight Booking Application created by <a href="https://github.com/Yasith8" target="_blank">Yasith Nawodya</a>.</h4>
 <h3 align="center">Used Programming Languages, Libraries and framworks</h3>
-<p align="center>
+<p align="center">
   <span><img src="https://img.shields.io/badge/Javascript-white?logo=javascript"></span>
     <span><img src="https://img.shields.io/badge/HTML-white?logo=html5"></span>
     <span><img src="https://img.shields.io/badge/CSS-black?logo=css3"></span>
   <span><img src="https://img.shields.io/badge/Bootstrap-pink?logo=bootstrap"></span>
    <span><img src="https://img.shields.io/badge/React-black?logo=react"></span>
-<!--     <span><img src="https://img.shields.io/badge/NodeJS-Yellow?logo=node.js"></span> -->
+<span><img src="https://img.shields.io/badge/NodeJS-Yellow?logo=node.js"></span>
     <span><img src="https://img.shields.io/badge/Express-black?logo=express"></span>
     <span><img src="https://img.shields.io/badge/MongoDB-white?logo=mongodb"></span>
 </p>
