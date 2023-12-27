@@ -19,3 +19,12 @@
     <span><img src="https://img.shields.io/badge/Express-black?logo=express"></span>
     <span><img src="https://img.shields.io/badge/MongoDB-white?logo=mongodb"></span>
 </p>
+<hr/>
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
