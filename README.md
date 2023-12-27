@@ -97,7 +97,7 @@ Employee reviews the available flight options and selects a suitable one based o
   
 </ul>
 
-<h3>d. Passenger Details:<h3>
+<h3>d. Passenger Details:</h3>
 <ul>
 <li>Input passenger details, including names, ages, and any special requirements.</li>
 <li>Verify the accuracy of the entered information.</li>
