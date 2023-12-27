@@ -11,6 +11,9 @@
 <h3 align="center>Used Programming Languages, Libraries and framworks</h3>
 <p align="center>
   <span>
-    <img src="https://img.shields.io/badge/javascript-yellow?logo=javascript">
+    <img src="https://img.shields.io/badge/Javascript-black?logo=javascript">
+    </span>
+  <span>
+    <img src="https://img.shields.io/badge/Bootstrap-purple?logo=bootstrap">
     </span>
 </p>
