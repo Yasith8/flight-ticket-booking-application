@@ -42,7 +42,7 @@
 
 <h1> Flight Booking by Agency Employee</h1>
 
-<h2>Objective:</h2>h2>
+<h2>Objective:</h2>
 <p>To facilitate the process of booking a flight for a customer, ensuring a seamless and efficient experience for both the agency employee and the traveler.</p>
 
 <h3>Scenario: Booking a Flight for a Customer<h3>
@@ -96,8 +96,8 @@ Employee reviews the available flight options and selects a suitable one based o
  </li>
   
 </ul>
-<h3>d. Passenger Details:<h3>
 
+<h3>d. Passenger Details:<h3>
 <ul>
 <li>Input passenger details, including names, ages, and any special requirements.</li>
 <li>Verify the accuracy of the entered information.</li>
