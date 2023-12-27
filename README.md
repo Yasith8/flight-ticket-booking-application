@@ -50,7 +50,7 @@
 <h2>Preconditions:</h2>
 
 <ul>
-  <li></li>
+  
   <li>
 Employee is logged into the Flight Booking Management System.
   </li>
@@ -61,38 +61,110 @@ Customer has provided relevant travel details and preferences.
 
 <h2>Main Flow:</h2>
 
-a. Initiate Booking:
+<h3>a. Initiate Booking:</h3>
 
-  -Employee accesses the booking module from the dashboard.
-  =Inputs customer details, including name, contact information, and any other information.
+<ul>
+ <li>
+  Employee accesses the booking module from the dashboard.
+   
+ </li>
+ <li>
+  Inputs customer details, including name, contact information, and any other information.
+   
+ </li>
   
-b. Flight Search:
+</ul>
+  
+<h3>b. Flight Search:</h3>
 
+<ul>
+  <li>
+    
 Employee enters the customer's travel details, such as origin, destination, preferred dates, and any specific airline preferences.
+  </li>
+  <li>
 The system retrieves real-time flight availability and pricing information.
-c. Select Flight:
+  </li>
+</ul>
 
+<h3>c. Select Flight:</h3>
+
+<ul>
+ <li>
 Employee reviews the available flight options and selects a suitable one based on customer preferences, budget considerations, and agency-specific deals.
-d. Passenger Details:
+   
+ </li>
+  
+</ul>
+<h3>d. Passenger Details:<h3>
 
+<ul>
+<li>
 Input passenger details, including names, ages, and any special requirements.
+  
+</li>
+<li>
 Verify the accuracy of the entered information.
-e. Confirm and Book:
+  
+</li>
+  
+</ul>
+<h3>e. Confirm and Book:</h3>
 
+<ul>
+<li>
 Review the summary of the booking, including flight details, passenger information, and total cost.
+  
+</li>
+  
+<li>
 Confirm the booking, initiating the secure payment process.
-f. Payment Processing:
+</li>
+</ul>
+f. Payment Processing:</h3>
 
+<ul>
+<li>
 Complete the payment using the integrated payment gateway, ensuring a secure transaction.
+  
+</li>
+<li>
 Receive confirmation of the successful booking.
+  
+</li>
+  
+</ul>
 
 <h2>Alternate Flow: Ticket Modification:</h2>
+<ul>
+<li>
 If the customer requests changes to the booking, the employee can access the ticket editing module.
+  
+</li>
+<li>
 Modify details such as travel dates, passenger information, or seat preferences.
+  
+</li>
+<li>
 Ensure real-time validation and adherence to agency policies.
+  
+</li>
+  
+</ul>
 
 <h2>Postconditions:</h2>
-
+<ul>
+  <li>
+    
 Customer receives confirmation of the booked flight.
+  </li>
+  <li>
+    
 Employee's records are updated with the new booking details.
+  </li>
+  <li>
+    
 Internal systems reflect the latest information for future reference.
+  </li>
+
+</ul>
