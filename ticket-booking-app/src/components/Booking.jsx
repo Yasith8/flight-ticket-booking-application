@@ -12,12 +12,39 @@ function Booking() {
  
   const [select,setSelect]=useState(0);
 
+  const [seatCount,setSeatCount]=useState(select);
+  const [toggleSeat,setToggleSeat]=useState(false);
 
-
-  const countCont=(e)=>{
-    e.preventDefault();
-    console.log(setSelect)
+  const ticketCountHandler=(e)=>{
+    setSelect(e.target.value);
+    console.log(e.target.value);
+    setSeatCount(e.target.value)
   }
+
+  const ticketCount=Array.from({ length: 10 }, (_, index) => index + 1);
+  
+  
+
+
+  const seatCountHandler=(e)=>{
+    e.preventDefault();
+
+
+
+    //console.log(seatCount)
+    
+    setToggleSeat(!toggleSeat); 
+    
+    if(!toggleSeat){
+      setSeatCount(prev=>prev-1)
+    }else{
+      setSeatCount(prev=>prev+1)
+    }
+ 
+  }
+
+
+
   return (
    
     <div className='row dash-main'>
@@ -197,24 +224,19 @@ function Booking() {
                 </select>
               </div>
               {/*type label end */}
-              {/*count label start */}
+              {/*count inputl start */}
               <div className="col-4">
-              <select id="count" value={select} onChange={(e)=>{setSelect(e.target.value)}} className='form-select'>
+              <select id="count" value={select} onChange={ticketCountHandler} className='form-select'>
                   <option selected disabled hidden>Select Ticket Count(max 10)</option>
-                  <option value={1}>1</option>
-                  <option value={2}>2</option>
-                  <option value={3}>3</option>
-                  <option value={4}>4</option>
-                  <option value={5}>5</option>
-                  <option value={6}>6</option>
-                  <option value={7}>7</option>
-                  <option value={8}>8</option>
-                  <option value={9}>9</option>
-                  <option value={10}>10</option>
+                  {ticketCount.map((value) => (
+                  <option key={value} value={value}>
+                           {value}
+                      </option>
+                   ))}
                   
                 </select>
               </div>
-              {/*count label end */}
+              {/*count input end */}
               {/*seat label start */}
               <div className="col-4">
             
@@ -227,7 +249,7 @@ function Booking() {
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Seat Count</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Your Ticket Count {seatCount}</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -236,12 +258,12 @@ function Booking() {
         <div className="row">
           <div className="col-1"></div>
           <div className="col-1 m-2"><button className='btn seat-btn disabled bg-danger'>100</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>101</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>102</button></div>
+          <div className="col-1 m-2"><button className={`btn seat-btn ${toggleSeat?"bg-success":""}`} value={101} onClick={seatCountHandler}>101</button></div>
+          <div className="col-1 m-2"><button className={`btn seat-btn ${toggleSeat?"bg-success":""}`} value={102} onClick={seatCountHandler}>102</button></div>
           <div className="col-1"></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>103</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>104</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>105</button></div>
+          <div className="col-1 m-2"><button className={`btn seat-btn ${toggleSeat?"bg-success":""}`} value={103} onClick={seatCountHandler}>103</button></div>
+          <div className="col-1 m-2"><button className={`btn seat-btn ${toggleSeat?"bg-success":""}`} value={104} onClick={seatCountHandler}>104</button></div>
+          <div className="col-1 m-2"><button className={`btn seat-btn ${toggleSeat?"bg-success":""}`} value={105} onClick={seatCountHandler}>105</button></div>
           <div className="col-1"></div>
           <div className="col-1"></div>
         </div>
@@ -266,7 +288,7 @@ function Booking() {
           <div className="col-1 m-2"><button className='btn seat-btn'>114</button></div>
           <div className="col-1"></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>115</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>116</button></div>
+          <div className="col-1 m-2"><button className='btn seat-btn disabled bg-danger'>116</button></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>117</button></div>
           <div className="col-1"></div>
           <div className="col-1"></div>
@@ -275,7 +297,7 @@ function Booking() {
         <div className="row">
           <div className="col-1"></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>118</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>119</button></div>
+          <div className="col-1 m-2"><button className='btn seat-btn disabled bg-danger'>119</button></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>120</button></div>
           <div className="col-1"></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>121</button></div>
@@ -318,8 +340,8 @@ function Booking() {
         <div className="row">
           <div className="col-1"></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>221</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>222</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>223</button></div>
+          <div className="col-1 m-2"><button className='btn seat-btn disabled bg-danger'>222</button></div>
+          <div className="col-1 m-2"><button className='btn seat-btn disabled bg-danger'>223</button></div>
           <div className="col-1"></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>224</button></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>225</button></div>
@@ -345,9 +367,9 @@ function Booking() {
 
         <div className="row">
           <div className="col-1"></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>233</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>234</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>235</button></div>
+          <div className="col-1 m-2"><button className='btn seat-btn disabled bg-danger'>233</button></div>
+          <div className="col-1 m-2"><button className='btn seat-btn disabled bg-danger'>234</button></div>
+          <div className="col-1 m-2"><button className='btn seat-btn disabled bg-danger'>235</button></div>
           <div className="col-1"></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>236</button></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>237</button></div>
@@ -379,7 +401,7 @@ function Booking() {
           <div className="col-1"></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>248</button></div>
           <div className="col-1 m-2"><button className='btn seat-btn'>249</button></div>
-          <div className="col-1 m-2"><button className='btn seat-btn'>250</button></div>
+          <div className="col-1 m-2"><button className='btn seat- disabled bg-danger'>250</button></div>
           <div className="col-1"></div>
           <div className="col-1"></div>
         </div>
@@ -400,7 +422,7 @@ function Booking() {
             </div>
 
 
-            <button onClick={countCont}>button</button>
+            
 
 
           </form>
