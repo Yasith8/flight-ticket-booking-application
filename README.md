@@ -13,19 +13,16 @@
   <span><img src="https://img.shields.io/badge/Javascript-white?logo=javascript"></span>
     <span><img src="https://img.shields.io/badge/HTML-white?logo=html5"></span>
     <span><img src="https://img.shields.io/badge/CSS-black?logo=css3"></span>
-  <span><img src="https://img.shields.io/badge/Bootstrap-pink?logo=bootstrap"></span>
+  <span><img src="https://img.shields.io/badge/Tailwind-white?logo=tailwind"></span>
    <span><img src="https://img.shields.io/badge/React-black?logo=react"></span>
 <span><img src="https://img.shields.io/badge/NodeJS-Yellow?logo=node.js"></span>
-    <span><img src="https://img.shields.io/badge/Express-black?logo=express"></span>
-    <span><img src="https://img.shields.io/badge/MongoDB-white?logo=mongodb"></span>
 </p>
 <hr/>
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#usecase">UseCase</a> •
-  <a href="#note">Special Notes</a> •
-  <a href="#snap">Snapshots</a> 
+  <a href="#snap">Snapshots</a> •
+  <a href="#note">Special Notes</a> 
 </p>
 
 
