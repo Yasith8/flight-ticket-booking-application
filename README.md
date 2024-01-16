@@ -13,7 +13,7 @@
   <span><img src="https://img.shields.io/badge/Javascript-white?logo=javascript"></span>
     <span><img src="https://img.shields.io/badge/HTML-white?logo=html5"></span>
     <span><img src="https://img.shields.io/badge/CSS-black?logo=css3"></span>
-  <span><img src="https://img.shields.io/badge/Tailwind-white?logo=tailwind"></span>
+  <span><img src="https://img.shields.io/badge/Bootstrap-white?logo=tailwindcss"></span>
    <span><img src="https://img.shields.io/badge/React-black?logo=react"></span>
 <span><img src="https://img.shields.io/badge/NodeJS-Yellow?logo=node.js"></span>
 </p>
